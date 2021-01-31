@@ -3,7 +3,7 @@ import web_api
 import datetime
 
 # DEBUG DEBUG
-demo_authentication = email_client.Authentication('imap.mail.yahoo.com','smtp.mail.yahoo.com', 'bob_d74@yahoo.com', 'jrcbrfasidykvdxb')
+demo_authentication = email_client.Authentication('imap.mail.yahoo.com','smtp.mail.yahoo.com', 'EMAIL@yahoo.com', 'PASSWORD')
 demo_message = email_client.Message(21, '2020-09-20 14:21:40', demo_authentication.username, demo_authentication.username, 'nieuw titel niuewe mail.', 'Subject: nieuw titel niuewe mail.\n\n een teste')
 
 now = datetime.datetime.now()
